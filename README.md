@@ -30,7 +30,7 @@ If the value is lower than threshold, reject, higher than threhold indicate as a
 Lower threshold : Higher threshold normally use 1:2 or 1:3 ratio
 
 # Step 5
-Finding the area of interest (video at 22.54).
+Finding the area of interest .
 
 Use matplotlib to first see the coordinate of area of interest.
 
