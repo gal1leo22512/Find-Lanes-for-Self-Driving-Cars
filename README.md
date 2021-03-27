@@ -40,12 +40,12 @@ Apply the black mask to the canny image. We use bitwise '&' operation between tw
 
 0000 & 0101 will always be 0000
 
-1111 & 0101 will be  0101 same as the input - binary numbers video at 30.41
+1111 & 0101 will be  0101 same as the input 
 
 # Step 7 Hough Transform
 Theory - first draw the 2d corrdinate space of x and y and inside it is a straight line y = mx + b.
 
-In hough space, the x axis is m and y axis is b. Video at 42.00, notice that a single point in x and y space is represented 
+In hough space, the x axis is m and y axis is b. notice that a single point in x and y space is represented 
 by a line in Hough space. In other words, by plotting the family of lines that goes through our points each line with its own distinct M and B value pair, this produces an entire line of M and B value pairs in Hough space.
 
 The intersection point in hough space represents there is a line to cross two points as in x and y plane. 
