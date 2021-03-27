@@ -66,7 +66,6 @@ now the x axis in hough space is theta (radians) and y axis is rho (p) and it is
 # Step 8 Hough Transform 2 - Implementation
 *Hough accumulator array is previously described as a grid for simplicity
 and it is actually a two dimensional array of rows and columns to use to collect votes
- video at 52.15.
 
 Size of the bins - rho is the distance resolution of accumulator in pixels
 angle is the angle resolution of the accumulator in radians. 
@@ -96,9 +95,9 @@ We use polyfit as it will fit a first degree polynomial which would simply be a
 linear function of y = mx + b and return a vector of coefficients that are gradient and y-intercept.
 
 We know that the slope of the left side is -ve, while the right side is +ve
-   slope +ve when x and y increases refer video at 1.09.09
+   slope +ve when x and y increases refer 
 
-We then take the coordinate of each line and plot on the original lane image (video at 1:14:14)
+We then take the coordinate of each line and plot on the original lane image 
 
 Why 3/5 because we just goes three-fifths of the way upwards from bottom of screen
 
